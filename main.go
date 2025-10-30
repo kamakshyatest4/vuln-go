@@ -13,7 +13,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello world")
+	fmt.Println("AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE")
+	fmt.Println("AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY")
 	wadl, err := xmlquery.LoadURL("https://httpbin.org/get")
 	if err != nil {
 		panic(err)
