@@ -9,7 +9,7 @@ import (
 
 	// - "github.com/gogs/gogs"
 	_ "github.com/hashicorp/golang-lru"
-	// _ "github.com/owncast/owncast/logging"
+	_ "github.com/owncast/owncast/logging"
 )
 
 func main() {
