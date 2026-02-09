@@ -2,7 +2,10 @@ module github.com/endorlabs/vulnerable-golang
 
 go 1.18
 
-require github.com/antchfx/xmlquery v1.3.0
+require (
+	github.com/antchfx/xmlquery v1.3.0
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+)
 
 require (
 	github.com/antchfx/xpath v1.2.4 // indirect
